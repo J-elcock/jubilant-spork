@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header><h1>Python Documentation</h1></header>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#Introduction" >Introduction</a> <br>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#Requirements">Requirements</a> <br>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#Hello_World">Hello World</a> <br>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#Variables">Variables</a> <br>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a> <br>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#If_Else_Statements">If Else Statements</a> <br>
+        <div class="nav-div"></div>
+        <a class="nav-link" href="#While_Statements">While Statements</a> <br>
+        <div class="nav-div"></div>
+      </nav>
+      <div class="info-div">
+        <section id="Introduction" class="main-section">
+          <header>
+            <h1>Introduction</h1>
+          </header>
+          <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used for web development, data science, automation, artificial intelligence, and more. Python's syntax is easy to learn, making it a great choice for beginners.</p>
+        </section>
+        <section id="Requirements" class="main-section">
+          <header>
+            <h1>Requirements</h1>
+          </header>
+          <ul>
+            <li>Knoledge of IDEs.</li>
+            <li>An IDE with python installed.</li>
+          </ul>
+        </section>
+        <section id="Hello_World" class="main-section">
+          <header><h1>Hello World</h1>
+          </header>
+          <p>To get started with writing Python, open your IDE and write your first "Hello world" Python code:</p>
+          <code>print("Hello World")</code>
+        </section>
+        <section id="Variables" class="main-section">
+          <header>
+            <h1>Variables</h1>
+          </header>
+          <p>A Python variable is a name that stores a value, acting as a container for data. Variables allow you to store, modify, and reuse data in your program. Variable names folllow certain rules:</p>
+          <ul>
+            <li>Must Start with a Letter or Underscore (_)</li>
+            <li>Can Only Contain Letters, Digits, and Underscores</li>
+            <li>Case-Sensitive</li>
+            <li>Cannot Use Python Keywords (Reserved Words)</li>
+            <li>No Special Characters Except (_)</li>
+          </ul>
+        </section>
+        <section id="Declaring_Variables" class="main-section">
+          <header>
+            <h1>Declaring Variables</h1>
+          </header>
+          <p>There are multiple ways to decleare a variable in Python. Bellow are a few of those ways.</p>
+          <p>Declaration with a type:</p>
+          <code>int x = 5</code>
+          <p>Declaration without a type:</p>
+          <code>x = 5</code>
+          <p>Assigning multiple variables with different values:</p>
+          <code>x, y, z = 1, 2, 3</code>
+          <p>Assigning multiple variables the same value:</p>
+          <code>x = y = z = 5</code>
+        </section>
+        <section id="If_Else_Statements" class="main-section">
+          <header>
+            <h1>If Else Statements</h1>
+          </header>
+          <p>An if-else statement in Python is a conditional statement used to execute different blocks of code based on whether a condition is true or false. An if-else statemaent looks as follows:</p>
+          <code>if condition: <br> <span class="indent">statement 1</span> <br> else: <br> <span class="indent">statement 2</span> </code>
+          <p>If there are multiple coditions you can use elif:</p>
+          <code>if condition 1: <br> 
+          <span class="indent">statement 1</span> <br> elif condition 2: <br> 
+        <span class="indent">statement 2</span> <br> elif condition 3: <br> 
+        <span class="indent">statement 3</span> </code>
+        </section>
+        <section id="While_Statements" class="main-section">
+          <header>
+            <h1>While Statements<h1>
+          </header>
+          <p>A while statement in Python is a type of loop that executes a block of code repeatedly as long as a given condition remains true. Bellow is the structure of a while statement:</p>
+          <code>while condition: <br>
+          <span class="indent">statement</span></code>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
